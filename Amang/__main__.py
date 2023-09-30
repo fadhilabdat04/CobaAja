@@ -8,7 +8,7 @@ import importlib
 import re
 from contextlib import closing, suppress
 
-from pyrogram import idle
+from pyrogram import  __version__, idle
 
 from uvloop import install
 
