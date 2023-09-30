@@ -46,4 +46,4 @@ tgcrypto
 yt-dlp
 youtube-search-python
 youtube_search
-RichHandler
+Rich
