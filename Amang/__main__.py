@@ -70,7 +70,9 @@ async def start_bot():
 
 if __name__ == "__main__":
     try:
-        loop.run_until_complete(start_bot())
+        get_event_loop().run_until_complete(start_bot())
+        app.loop.run_forever()
+        # loop.run_until_complete(start_bot())
     except KeyboardInterrupt:
         pass
     except Exception:
@@ -78,4 +80,6 @@ if __name__ == "__main__":
         LOGGER.info(err)
     finally:
         loop.stop()
-        LOGGER.info ("------------------------ Stopped Services ------------------------")
+        LOGGER.info(
+            "------------------------ Stopped Services ------------------------"
+        )
