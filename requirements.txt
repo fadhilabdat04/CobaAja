@@ -48,4 +48,4 @@ youtube-search-python
 youtube_search
 Rich
 pyrogram1
-python3.10
+GitPython
