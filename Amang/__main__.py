@@ -80,6 +80,4 @@ if __name__ == "__main__":
         LOGGER.info(err)
     finally:
         loop.stop()
-        LOGGER.info(
-            "------------------------ Stopped Services ------------------------"
-        )
+        LOGGER.info("------------------------ Stopped Services ------------------------")
