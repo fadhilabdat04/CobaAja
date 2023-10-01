@@ -70,6 +70,6 @@ async def start_bot():
 
 if __name__ == "__main__":
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
-    pyrogram.start(bot_token=TOKEN)
+    pyrogram.start(BOT_TOKEN=BOT_TOKEN)
     pbot.start()
     main()
